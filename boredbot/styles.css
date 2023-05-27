@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+/* global */
+
+* {
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1440px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  color: white;
+  font-size: 16px;
+  background: rgb(165, 56, 153);
+  background: radial-gradient(
+    circle,
+    rgba(165, 56, 153, 1) 0%,
+    rgba(184, 128, 237, 1) 100%
+  );
+}
+
+main {
+  padding: 2em;
+  width: 80%;
+  max-width: 300px;
+  text-align: center;
+  border: none;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.396);
+  box-shadow: 3px 10px 20px 2px rgba(123, 135, 157, 0.106);
+}
+
+button {
+  margin-top: 1em;
+  padding: 1em 1.5em;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: bold;
+  background-color: white;
+  color: rgb(165, 56, 153);
+  transition: 0.1s;
+}
+
+button:hover {
+  background-color: rgba(165, 56, 152, 0.429);
+  color: white;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* classes & ids */
+
+.fa-circle-info {
+  margin: 1em;
+}
+
+.fa-circle-info:hover {
+  cursor: pointer;
+}
+
+#info {
+  padding: 1em;
+  max-width: 200px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.746);
+  color: rgb(165, 56, 153);
+  display: none;
+  position: absolute;
+}
